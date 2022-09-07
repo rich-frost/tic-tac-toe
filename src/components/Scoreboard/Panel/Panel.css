@@ -1,0 +1,10 @@
+.scoreboard-panel {
+    margin: 0 0 2rem 0;
+    padding: 0 0 1rem 0;
+    border-bottom: solid 1px grey;
+}
+
+.scoreboard-panel-value {
+    font-size: 3rem;
+    font-weight: bold;
+}

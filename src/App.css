@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    color: #3c3c3c;
+}
+
+body,
+input {
+    font-family: 'Courier New', monospace;
+    background-color: #f3eada;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: 3px 3px grey;
+}
+
+h3 {
+    color: #bc0067;
+    font-size: 30px;
+    margin: 1rem;
+    text-shadow: 1px 1px grey;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+input {
+    border-width: 1px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: dotted 1px #9a813a;
+}
+
+button {
+    background: #bc0067;
+    padding: 11px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.panel {
+    box-shadow: 4px 4px #b0aea7;
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+}
+
+.app {
+    display: grid;
+    text-align: center;
+    grid-template-areas:
+        'header'
+        'info'
+        'content'
+        'scoreboard';
+    grid-template-areas:
+        'header header header'
+        'info info info'
+        'content content scoreboard';
+    grid-template-columns: 4fr 1fr;
+    column-gap: 2rem;
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(45 170 166);
+}
+
+.info {
+    grid-area: info;
+}
+
+.content {
+    grid-area: content;
+}
+
+.scoreboard {
+    grid-area: scoreboard;
+}

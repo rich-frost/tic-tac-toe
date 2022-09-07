@@ -1,0 +1,10 @@
+.play-state-panel {
+    height: 70px;
+    background-color: #cff2f1;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

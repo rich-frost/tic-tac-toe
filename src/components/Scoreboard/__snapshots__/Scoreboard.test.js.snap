@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders default scoreboard 1`] = `
+<div>
+  <div
+    class="scoreboard panel"
+  >
+    <h3>
+      SCORE BOARD
+    </h3>
+    <div
+      class="scoreboard-panel"
+    >
+      <h4>
+        Richard
+      </h4>
+      <div
+        class="scoreboard-panel-value"
+      >
+        0
+      </div>
+    </div>
+    <div
+      class="scoreboard-panel"
+    >
+      <h4>
+        Computer
+      </h4>
+      <div
+        class="scoreboard-panel-value"
+      >
+        0
+      </div>
+    </div>
+    <div
+      class="scoreboard-panel"
+    >
+      <h4>
+        Draws
+      </h4>
+      <div
+        class="scoreboard-panel-value"
+      >
+        0
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders scoreboard with values and reset button 1`] = `
+<div>
+  <div
+    class="scoreboard panel"
+  >
+    <h3>
+      SCORE BOARD
+    </h3>
+    <div
+      class="scoreboard-panel"
+    >
+      <h4>
+        Rich
+      </h4>
+      <div
+        class="scoreboard-panel-value"
+      >
+        1
+      </div>
+    </div>
+    <div
+      class="scoreboard-panel"
+    >
+      <h4>
+        Computer
+      </h4>
+      <div
+        class="scoreboard-panel-value"
+      >
+        3
+      </div>
+    </div>
+    <div
+      class="scoreboard-panel"
+    >
+      <h4>
+        Draws
+      </h4>
+      <div
+        class="scoreboard-panel-value"
+      >
+        6
+      </div>
+    </div>
+    <button>
+      Reset score
+    </button>
+  </div>
+</div>
+`;
